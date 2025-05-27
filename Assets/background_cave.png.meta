@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a44c295954a71014d9e8349caf8d182a
+guid: e93f3a7e85cfff843b3308e43faabe8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1631046737135419804
-    second: snailWalk2_0
+      213: 5382571652087001101
+    second: background_cave_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: snailWalk2_0
+      name: background_cave_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 57
-        height: 31
+        width: 400
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c914403ad54a2a610800000000000000
-      internalID: 1631046737135419804
+      spriteID: d00bbb4466cb2ba40800000000000000
+      internalID: 5382571652087001101
       vertices: []
       indices: 
       edges: []

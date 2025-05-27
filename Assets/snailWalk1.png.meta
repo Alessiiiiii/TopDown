@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0286ce9cb94baf0489eb619ee3083809
+guid: 0f98ec4306c339449936ca30da6d6b5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5806569824348050239
-    second: slimeWalk1_0
+      213: -5428313750840021998
+    second: snailWalk1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slimeWalk1_0
+      name: snailWalk1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 50
-        height: 28
+        width: 54
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1cc6b30628bea6fa0800000000000000
-      internalID: -5806569824348050239
+      spriteID: 21cefcf6761caa4b0800000000000000
+      internalID: -5428313750840021998
       vertices: []
       indices: 
       edges: []

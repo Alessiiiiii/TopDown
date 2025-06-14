@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7461786373521219700}
   - component: {fileID: 2333229644881885590}
   - component: {fileID: 3879829012473579392}
+  - component: {fileID: 5740665688481556171}
   m_Layer: 0
   m_Name: Caracol
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.2236776, y: -3.0198765, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -153,3 +154,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.54, y: 0.31}
   m_Direction: 0
+--- !u!114 &5740665688481556171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6570591026816656346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a7a76b02186564099b51c1a44d4a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 2

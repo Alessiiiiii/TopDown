@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 07878a0fd858d65409ad67fd132f6462
+guid: 5bb165d1e8ccb1b45ac51c972336847a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1580573710942038920
-    second: dirtCenter_0
+      213: -5357303270428410646
+    second: colored_land_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirtCenter_0
+      name: colored_land_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8749af9859ca01ae0800000000000000
-      internalID: -1580573710942038920
+      spriteID: aec731c4f0907a5b0800000000000000
+      internalID: -5357303270428410646
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 516fcaa8f7318dc4bb8500fde034d2f0
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      colored_land_0: -5357303270428410646
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

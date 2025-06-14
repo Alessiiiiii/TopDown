@@ -7,7 +7,7 @@ public class SpeedBoost : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerController>().speed *= boostAmount;
+            other.GetComponent<Jugador>().velocidad *= boostAmount;
             Destroy(gameObject);
         }
     }

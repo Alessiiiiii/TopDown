@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Jugador : MonoBehaviour
 {
-    public float speed = 5f;
-    public float jumpForce = 7f;
+    public float velocidad = 5f;
+    public float fuerzaSalto = 10f;
     private Rigidbody2D rb;
 
     void Start()
@@ -13,12 +13,21 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        float move = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        Mover();
+        if (Input.GetKeyDown(KeyCode.Space)) // Salto con barra espaciadora
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            Saltar();
         }
+    }
+
+    void Mover()
+    {
+        float movimiento = Input.GetAxis("Horizontal") * velocidad;
+        rb.linearVelocity = new Vector2(movimiento, rb.linearVelocity.y);
+    }
+
+    void Saltar()
+    {
+        rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
     }
 }
